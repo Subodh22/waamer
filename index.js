@@ -94,7 +94,7 @@ app.post("/form",(req,res,next)=>
          }else{
         
              //console.log(req.file);
-             res.send('test');
+            //  res.send('test');
          }
      });
     //}
