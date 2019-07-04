@@ -83,6 +83,7 @@ app.post("/form",(req,res,next)=>
    
         console.log(req.body.product_name);
         console.log(JSON.parse(req.body.product_imgs));
+        res.send(req.body);
          upload(req,res,(err)=>{
          if(err)
          {
