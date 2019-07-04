@@ -1,0 +1,24 @@
+{
+	"manifest_version" :2,
+	"name":"Coding Train Extension",
+	"version":"0.001",
+	"content_scripts": [
+		{
+			"matches":[
+			
+			"https://www.aliexpress.com/item/*"
+			],
+
+			"js":["content.js"]
+		}
+
+	],
+	"background":
+	{
+		"scripts":["background.js"]
+	}
+	
+
+
+
+}
